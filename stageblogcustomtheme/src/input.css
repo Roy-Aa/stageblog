@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+    --color-tailwindblue: #00BCFF;
+    --color-lightblack: #030712;
+}
+
+@layer base {
+    h1 {
+        font-size: var(--text-2xl);
+        color: white;
+        --tw-font-weight: var(--font-weight-semibold);
+        font-weight: var(--font-weight-semibold);
+    }
+    h2 {
+        font-size: var(--text-xl);
+        color: white;
+        --tw-font-weight: var(--font-weight-semibold);
+        font-weight: var(--font-weight-semibold);
+    }
+    h3 {
+      font-size: var(--text-xl);
+      color: white;
+      --tw-font-weight: var(--font-weight-semibold);
+      font-weight: var(--font-weight-semibold);
+    }
+    p {
+        color: white;
+        --tw-font-weight: var(--font-weight-semibold);
+        font-weight: var(--font-weight-semibold);
+    }
+    a {
+        color: white;
+        --tw-font-weight: var(--font-weight-semibold);
+        font-weight: var(--font-weight-semibold);
+    }
+    textarea {
+      border: 1px solid #364153;
+    }
+  }
+
+@layer components {
+    .card {
+        background-color: var(--color-white);
+        border-radius: var(--rounded-lg);
+        padding: var(--spacing-6);
+        box-shadow: var(--shadow-xl);
+    }
+}

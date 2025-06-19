@@ -298,11 +298,14 @@
   .w-8 {
     width: calc(var(--spacing) * 8);
   }
-  .w-10\/100 {
-    width: calc(10/100 * 100%);
-  }
   .w-25 {
     width: calc(var(--spacing) * 25);
+  }
+  .w-95\/100 {
+    width: calc(95/100 * 100%);
+  }
+  .w-97\/100 {
+    width: calc(97/100 * 100%);
   }
   .w-\[10px\] {
     width: 10px;

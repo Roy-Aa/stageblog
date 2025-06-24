@@ -92,7 +92,7 @@
                 <div class="observe delay-100 rounded-md border border-gray-700 p-6 flex flex-col gap-2">
                     <div class="flex gap-2 items-center">
                         <h2>FBI Digital Agency </h2>
-                        <svg onclick="this.style.transform = 'rotate(360deg)';" class="duration-1000" fill="#F2501A" width="24" height="24" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <svg onclick="rotateText(this)" fill="#F2501A" width="24" height="24" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path d="m11.322 2.923c.126-.259.39-.423.678-.423.289 0 .552.164.678.423.974 1.998 2.65 5.44 2.65 5.44s3.811.524 6.022.829c.403.055.65.396.65.747 0 .19-.072.383-.231.536-1.61 1.538-4.382 4.191-4.382 4.191s.677 3.767 1.069 5.952c.083.462-.275.882-.742.882-.122 0-.244-.029-.355-.089-1.968-1.048-5.359-2.851-5.359-2.851s-3.391 1.803-5.359 2.851c-.111.06-.234.089-.356.089-.465 0-.825-.421-.741-.882.393-2.185 1.07-5.952 1.07-5.952s-2.773-2.653-4.382-4.191c-.16-.153-.232-.346-.232-.535 0-.352.249-.694.651-.748 2.211-.305 6.021-.829 6.021-.829s1.677-3.442 2.65-5.44z" fill-rule="nonzero" />
                         </svg>
                     </div>
@@ -154,11 +154,15 @@
                 <h2 class="text-3xl">Stageplek 2</h2>
             </div>
             <div class="observe grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div class="rounded-md border border-gray-700 p-6 flex justify-center text-center">
-                    <p class="text-8xl">?</p>
+                <div class="rounded-md border border-gray-700 p-6 flex items-center justify-center text-center">
+                    <a style="height: 70%;" target="_blank" href="https://www.fbidigital.nl/"><img class="object-cover w-auto transition hover:rotate-x-10 hover:-rotate-y-30" style="height: 100%;" src="<?php echo get_template_directory_uri(); ?>/assets/img/dunico.png" alt="Logo"></a>
                 </div>
-                <div class="observe delay-100 rounded-md border border-gray-700 p-6 flex justify-center items-center">
-                    <p class="text-4xl">???</p>
+                <div class="observe delay-100 rounded-md border border-gray-700 p-6 flex flex-col gap-2">
+                    <div class="flex gap-2 items-center">
+                        <h2>Dunico Web Design & Online Marketing </h2>
+                        <div class="flex cursor-default select-none" onclick="rotateText(this)"><span class="text-[#20C0FD] text-2xl font-black">d</span><span class="text-[#585858] text-2xl font-black">.</span></div>
+                    </div>
+                    <p>Mijn tweede stage periode loop ik bij Dunico Web Design & Online Marketing in Haarlem. Hier leer ik hoe het is om in een team te werken, problemen te verhelpen en leer ik omgaan met verschillende tools zoals WordPress en Oxygen.</p>
                 </div>
             </div>
 

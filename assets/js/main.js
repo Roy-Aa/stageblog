@@ -1,9 +1,7 @@
 let rotation = 0;
-const icon = document.getElementById("rotatingIcon");
 
-setInterval(() => {
+function rotateText(element) {
   rotation += 360;
-  icon.style.transform = `rotate(${rotation}deg)`;
-  icon.style.transition = "transform 1s";
-  console.log(`Icon rotated to ${rotation} degrees`);
-}, 3000);
+  element.style.transform = `rotate(${rotation}deg)`;
+  element.style.transition = "transform 1s";
+}

@@ -301,9 +301,6 @@
   .w-25 {
     width: calc(var(--spacing) * 25);
   }
-  .w-95\/100 {
-    width: calc(95/100 * 100%);
-  }
   .w-97\/100 {
     width: calc(97/100 * 100%);
   }
@@ -318,6 +315,9 @@
   }
   .w-full {
     width: 100%;
+  }
+  .w-screen {
+    width: 100vw;
   }
   .-translate-x-1\/2 {
     --tw-translate-x: calc(calc(1/2 * 100%) * -1);

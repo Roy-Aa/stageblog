@@ -316,9 +316,6 @@
   .w-full {
     width: 100%;
   }
-  .w-screen {
-    width: 100vw;
-  }
   .-translate-x-1\/2 {
     --tw-translate-x: calc(calc(1/2 * 100%) * -1);
     translate: var(--tw-translate-x) var(--tw-translate-y);
@@ -551,9 +548,6 @@
   .delay-100 {
     transition-delay: 100ms;
   }
-  .delay-125 {
-    transition-delay: 125ms;
-  }
   .delay-150 {
     transition-delay: 150ms;
   }
@@ -563,35 +557,20 @@
   .delay-170 {
     transition-delay: 170ms;
   }
-  .delay-175 {
-    transition-delay: 175ms;
-  }
   .delay-180 {
     transition-delay: 180ms;
   }
   .delay-200 {
     transition-delay: 200ms;
   }
-  .delay-225 {
-    transition-delay: 225ms;
-  }
   .delay-250 {
     transition-delay: 250ms;
-  }
-  .delay-275 {
-    transition-delay: 275ms;
   }
   .delay-300 {
     transition-delay: 300ms;
   }
-  .delay-325 {
-    transition-delay: 325ms;
-  }
   .delay-350 {
     transition-delay: 350ms;
-  }
-  .delay-375 {
-    transition-delay: 375ms;
   }
   .duration-100 {
     --tw-duration: 100ms;

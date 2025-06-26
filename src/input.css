@@ -58,6 +58,10 @@
   .observe-visible {
     @apply opacity-100 translate-y-0;
   }
+
+  .comment-notes, .comment-form-cookies-consent {
+    @apply text-sm mb-4;
+  }
 }
 
 @keyframes fadeInRightToLeft {

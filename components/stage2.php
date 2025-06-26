@@ -7,7 +7,7 @@
     </div>
     <div class="observe grid grid-cols-1 md:grid-cols-2 gap-4">
         <div class="rounded-md border border-gray-700 p-6 flex items-center justify-center text-center">
-            <a style="width: 90%; max-height: 95px;" class="flex items-center justify-center" target="_blank" href="https://www.fbidigital.nl/"><img class="object-cover w-auto transition hover:rotate-x-10 hover:-rotate-y-30" style="height: 100%; max-height: 95px;" src="<?php echo get_template_directory_uri(); ?>/assets/img/dunico.png" alt="Logo"></a>
+            <a style="width: 90%; max-height: 95px;" class="flex items-center justify-center" target="_blank" href="https://www.dunico.nl/"><img class="object-cover w-auto transition hover:rotate-x-10 hover:-rotate-y-30" style="height: 100%; max-height: 95px;" src="<?php echo get_template_directory_uri(); ?>/assets/img/dunico.png" alt="Logo"></a>
         </div>
         <div class="observe delay-100 rounded-md border border-gray-700 p-6 flex flex-col gap-2">
             <div class="flex gap-2 items-center">

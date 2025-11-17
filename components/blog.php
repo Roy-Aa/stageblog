@@ -66,7 +66,9 @@
                 <?php while ($stage2_query->have_posts()): $stage2_query->the_post(); ?>
 
                     <article class="observe rounded-md border border-gray-700 p-6 text-center">
-                        <h3 class="text-xl font-semibold"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                        <h3 class="text-xl font-semibold">
+                            <a class="flex gap-2 justify-center items-center group" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                        </h3>
                     </article>
 
                 <?php endwhile; ?>

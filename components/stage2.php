@@ -23,18 +23,31 @@
             <h2>Sep <span class="text-tailwindblue">-</span> 2025</h2>
             <h2>Feb <span class="text-tailwindblue">-</span> 2026</h2>
         </div>
-        <div class="h-[5px] w-full bg-white rounded-full"></div>
+        <div class="h-[5px] w-full bg-white rounded-full">
+            <div class="absolute h-[5px] w-55/100 bg-tailwindblue rounded-full"></div>
+        </div>
     </div>
 
-    <div class="observe w-full h-auto flex flex-col p-6 border border-gray-700 rounded-md gap-4">
+    <div class="w-full h-auto flex flex-col p-6 border border-gray-700 rounded-md gap-4">
         <div class="flex items-center gap-4">
             <svg xmlns="http://www.w3.org/2000/svg" fill="#00BCFF" width="32" height="32" viewBox="0 0 24 24">
                 <path d="M23.269 19.743l-11.945-11.945c-.557-.557-.842-1.33-.783-2.115.115-1.485-.395-3.009-1.529-4.146-1.03-1.028-2.376-1.537-3.723-1.537-.507 0-1.015.072-1.505.216l3.17 3.17c.344 1.589-1.959 3.918-3.567 3.567l-3.169-3.17c-.145.492-.218 1-.218 1.509 0 1.347.51 2.691 1.538 3.721 1.135 1.136 2.66 1.645 4.146 1.53.783-.06 1.557.226 2.113.783l11.946 11.944c.468.468 1.102.73 1.763.73 1.368 0 2.494-1.108 2.494-2.494 0-.638-.244-1.276-.731-1.763zm-1.769 2.757c-.553 0-1-.448-1-1s.447-1 1-1c.553 0 1 .448 1 1s-.447 1-1 1zm-7.935-15.289l5.327-5.318c.584-.585 1.348-.878 2.113-.878.764 0 1.529.292 2.113.878.589.587.882 1.357.882 2.125 0 .764-.291 1.528-.873 2.11l-5.326 5.318-4.236-4.235zm-3.53 9.18l-5.227 5.185c-.227.23-.423.488-.574.774l-.301.58-2.1 1.07-.833-.834 1.025-2.146.58-.302c.286-.15.561-.329.79-.558l5.227-5.185 1.413 1.416z" />
             </svg>
             <h2>Ervaring met nieuwe Tools/Plugins</h2>
         </div>
-        <div class="w-full h-auto flex justify-center gap-4 p-6 border border-gray-700 rounded-md ">
-            <h2>???</h2>
+        <div class="w-full h-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 p-6 border border-gray-700 rounded-md items-center">
+            <a class="observe group delay-100 rounded-md border border-gray-700 p-6 flex items-center justify-center" target="_blank" href="https://wordpress.com/"><img class="h-20 group-hover:scale-105 duration-100 object-contain" src="<?php echo get_template_directory_uri(); ?>/assets/img/Wordpress.png" alt="Logo"></a>
+            <a class="observe group delay-200 rounded-md border border-gray-700 p-6 flex items-center justify-center" target="_blank" href="https://laravel.com/"><img class="h-20 group-hover:scale-105 duration-100 object-contain" src="<?php echo get_template_directory_uri(); ?>/assets/img/Laravel.png" alt="Logo"></a>
+            <a class="observe group delay-200 rounded-md border border-gray-700 p-6 flex items-center justify-center" target="_blank" href="https://herd.laravel.com/windows"><img class="h-20 group-hover:scale-105 duration-100 object-contain" src="<?php echo get_template_directory_uri(); ?>/assets/img/appicon.png" alt="Logo"></a>
+            <a class="observe group delay-200 rounded-md border border-gray-700 p-6 flex items-center justify-center" target="_blank" href="https://www.cleanplugins.com/products/advanced-scripts/"><img class="h-20 rounded-sm group-hover:scale-105 duration-100 object-contain" src="<?php echo get_template_directory_uri(); ?>/assets/img/Ascript.png" alt="Logo"></a>
+            <a class="observe group delay-300 rounded-md border border-gray-700 p-6 flex items-center justify-center" target="_blank" href="https://www.megamenu.com/"><img class="h-20 group-hover:scale-105 duration-100 object-contain" src="<?php echo get_template_directory_uri(); ?>/assets/img/MMM.png" alt="Logo"></a>
+            <a class="observe group delay-350 rounded-md border border-gray-700 p-6 flex items-center justify-center" target="_blank" href="https://woocommerce.com/"><img class="h-20 group-hover:scale-105 duration-100 object-contain" src="<?php echo get_template_directory_uri(); ?>/assets/img/woocommerce-logo_brandlogos.net_9i40c.png" alt="Logo"></a>
+            <a class="observe group delay-200 rounded-md border border-gray-700 p-6 flex items-center justify-center" target="_blank" href="https://adobexdplatform.com/"><img class="h-20 group-hover:scale-105 duration-100 object-contain" src="<?php echo get_template_directory_uri(); ?>/assets/img/adobee.png" alt="Logo"></a>
+            <a class="observe group delay-250 rounded-md border border-gray-700 p-6 flex items-center justify-center" target="_blank" href="https://www.gravityforms.com/"><img class="h-20 group-hover:scale-105 duration-100 object-contain" src="<?php echo get_template_directory_uri(); ?>/assets/img/Gravityforms.png" alt="Logo"></a>
+            <a class="observe group delay-200 rounded-md border border-gray-700 p-6 flex items-center justify-center" target="_blank" href="https://oxygenbuilder.com/"><img class="h-20 rounded-sm group-hover:scale-105 duration-100 object-contain" src="<?php echo get_template_directory_uri(); ?>/assets/img/icon.webp" alt="Logo"></a>
+            <a class="observe group delay-300 rounded-md border border-gray-700 p-6 flex items-center justify-center" target="_blank" href="https://www.advancedcustomfields.com/"><img class="h-20 group-hover:scale-105 duration-100 object-contain" src="<?php echo get_template_directory_uri(); ?>/assets/img/acficon.svg" alt="Logo"></a>
+            <a class="observe group delay-200 rounded-md border border-gray-700 p-6 flex items-center justify-center" target="_blank" href="https://www.figma.com/"><img class="h-20 group-hover:scale-105 duration-100 object-contain" src="<?php echo get_template_directory_uri(); ?>/assets/img/Figma.png" alt="Logo"></a>
+            <a class="observe group delay-300 rounded-md border border-gray-700 p-6 flex items-center justify-center" target="_blank" href="https://tableplus.com/"><img class="h-20 group-hover:scale-105 duration-100 object-contain" src="<?php echo get_template_directory_uri(); ?>/assets/img/tableplus.png" alt="Logo"></a>
         </div>
     </div>
 

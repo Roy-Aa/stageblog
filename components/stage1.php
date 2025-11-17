@@ -27,7 +27,7 @@
             <h2>Juli <span class="text-tailwindblue">-</span> 2025</h2>
         </div>
         <div class="h-[5px] w-full bg-white rounded-full relative">
-            <div class="absolute h-[5px] w-97/100 bg-tailwindblue rounded-full"></div>
+            <div class="absolute h-[5px] w-100/100 bg-tailwindblue rounded-full"></div>
         </div>
     </div>
 

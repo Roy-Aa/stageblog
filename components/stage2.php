@@ -24,7 +24,7 @@
             <h2>Feb <span class="text-tailwindblue">-</span> 2026</h2>
         </div>
         <div class="h-[5px] w-full bg-white rounded-full">
-            <div class="absolute h-[5px] w-55/100 bg-tailwindblue rounded-full"></div>
+            <div class="absolute h-[5px] w-94/100 bg-tailwindblue rounded-full"></div>
         </div>
     </div>
 
